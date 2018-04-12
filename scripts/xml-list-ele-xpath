@@ -1,0 +1,11 @@
+#!/bin/sh
+##############################################################################
+##
+## List all elements in the XML document by full xpath
+##
+##############################################################################
+
+LIB="${HOME}/lib/xml-tools-1.0.0-SNAPSHOT-jar-with-dependencies.jar"
+EXEC_CLASS="com.amlinv.xml.util.ListElementsByXPath"
+
+exec java -cp "$LIB" "$EXEC_CLASS" "$@"
