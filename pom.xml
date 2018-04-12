@@ -25,6 +25,8 @@
     <packaging>jar</packaging>
 
     <name>XML Tools</name>
+    <url>https://github.com/artnaseef/xml-tools</url>
+
     <description>
         Miscellaneous Command-Line Tools for working with XML content
     </description>
